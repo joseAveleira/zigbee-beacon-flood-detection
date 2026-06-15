@@ -1,0 +1,15 @@
+# Dataset (download from https://joseaveleira.es/datasets/)
+zigbee_beacon.csv
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
