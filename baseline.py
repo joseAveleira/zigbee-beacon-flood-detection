@@ -5,7 +5,7 @@ This script reproduces a simple baseline on the public ZigBee Beacon dataset.
 It uses standard classifiers with their default parameters and reports
 accuracy, precision, recall and weighted F1 with stratified cross-validation.
 
-Dataset: https://joseaveleira.es/datasets/  (file: zigbee_beacon.csv)
+Dataset: https://figshare.com/s/548457fa650f1179a98a  (file: zigbee_beacon.csv)
 
 Usage:
     pip install -r requirements.txt
@@ -69,7 +69,7 @@ def load_dataset(path):
     if not os.path.exists(path):
         sys.exit(
             f"Dataset not found: {path}\n"
-            "Download 'zigbee_beacon.csv' from https://joseaveleira.es/datasets/ "
+            "Download 'zigbee_beacon.csv' from https://figshare.com/s/548457fa650f1179a98a "
             "and pass its path with --data."
         )
     df = pd.read_csv(path, low_memory=False)

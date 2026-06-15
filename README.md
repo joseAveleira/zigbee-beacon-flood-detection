@@ -23,7 +23,7 @@ frame, IEEE 802.15.4 (WPAN) and ZigBee (NWK/APS) layers.
 
 The dataset is openly available at:
 
-- **https://joseaveleira.es/datasets/**
+- **https://figshare.com/s/548457fa650f1179a98a**
 
 Download `zigbee_beacon.csv` and place it in this folder (or pass its path with `--data`).
 
